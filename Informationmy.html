@@ -1,0 +1,199 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardian of the Rose</title>
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/lawyerstyle.css" />
+    
+    <script src="https://kit.fontawesome.com/f7f618d4ab.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html"><img src="images/logoR.png"></a>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a  class="active"href="indexmy">Home</a></li>
+          <li><a href="blogmy.html">Info</a></li>
+          <li><a href="Donatemy.html">Donate</a></li>
+          <li><a href="lawyermy.html">Lawyer</a></li>
+          <li><a href="aboutuspagemy.html">About Us</a></li>
+          <li><a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+          <li>
+            <a>ENG</a>
+            <label class="switch">
+              <input type="checkbox" onclick="NewTab()" id="toggleBtn">
+              <span class="slider round"></span>
+            </label>
+            <a>MM</a>
+          </li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png" alt="">
+<script type="text/javascript">
+const toggleBtn = document.getElementById('toggleBtn');
+
+toggleBtn.addEventListener('change', function() {
+  if (this.checked) {
+    window.open('Information.html', '_blank');
+  } else {
+    window.open('Informationmy.html','_blank');
+  }
+});
+
+</script>
+      </div>
+    </nav>
+    <div
+      class="masthead"
+      style="
+        background-image: linear-gradient(
+            rgba(9, 5, 54, 0.3),
+            rgba(5, 4, 46, 0.7)
+          ),
+          url(images/infohead.jpg);
+      "
+    >
+      <div class="color-overlay">
+        <h1>သတင်းအချက်အလက်</h1>
+        <p>ဤစာမျက်နှာတွင်၊ ဒုက္ခသည်များ၏အကူအညီအတွက် ကျွန်ုပ်တို့၏လှုပ်ရှားမှုများ တိုးတက်မှုကို ပြသထားသည်။
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="helpsection">
+        <h3>အိမ်တွင်းအကြမ်းဖက်မှုအဖြစ်များ</h3>
+        <p>
+          
+DV ၏တစ်သက်တာအဖြစ်များမှုသည် 33.24% ဖြင့် စိတ်ပိုင်းဆိုင်ရာစော်ကားမှုအဖြစ်အများဆုံး (48.47%)၊ နောက်တွင် ရုပ်ပိုင်းဆိုင်ရာစော်ကားမှု (34.77%) နှင့် လိင်ပိုင်းဆိုင်ရာစော်ကားမှု (16.75%) တို့ဖြစ်သည်။ အနည်းငယ်သောအချိုးအစား (၄.၁%) သည် စော်ကားမှုသုံးမျိုးစလုံးကို ခံစားခဲ့ရသည်။ စော်ကားမှု၏ သားကောင်များတွင် တစ်ကိုယ်တည်းဖြစ်ခြင်း သို့မဟုတ် ကွာရှင်းပြတ်စဲခြင်း၊ ဘွဲ့လွန်ပညာရေးအဆင့်ရှိခြင်း၊ အလုပ်လုပ်ကိုင်ခြင်းနှင့် ခင်ပွန်းဖြစ်သူနှင့် ငွေကြေးအရ အမှီအခိုကင်းခြင်းတို့ ပါဝင်သည်။
+        </p>
+      </div>
+      <div class="dvimg">
+        <img src="images/typedv.jpg" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+          <div class="card-content">
+            <div class="number">1 in 9</div>
+            <div class="card-name">ကလေး</div>
+          </div>
+          <div class="icon-box">
+            <i class='fas fa-child'></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="number">1 in 6</div>
+            <div class="card-name">အမျိုးသမီး</div>
+          </div>
+          <div class="icon-box">
+            <i class='fas fa-female'></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="number">1 in 15</div>
+            <div class="card-name">အမျိုးသား</div>
+          </div>
+          <div class="icon-box">
+            <i class='fas fa-male'></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <div class="number">1 in 10</div>
+            <div class="card-name">လူ</div>
+          </div>
+          <div class="icon-box">
+            <i class='fas fa-users'></i>
+          </div>
+        </div>
+      </div>
+      <div class="dvpeople">
+        <p>ထိုသူများသည် အိမ်တွင်းအကြမ်းဖက်မှုများကို ခံစားနေရသည်</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="helpsection">
+        <h3>မြန်မာနိုင်ငံတွင် အိမ်တွင်းအကြမ်းဖက်မှုဖြစ်ရပ်များ</h3>
+        <div class="charttext">
+          <p>
+            ဤဇယားသည် မြန်မာနိုင်ငံတွင် 2014 ခုနှစ်ကတည်းက အိမ်တွင်းအကြမ်းဖက်မှုဖြစ်ပွားမှုများကို ပြသထားသည်။ 2018 ခုနှစ်တွင် ကျွန်ုပ်တို့၏ဝဘ်ဆိုဒ်ကို တည်ဆောက်ခဲ့ပြီး အိမ်တွင်းအကြမ်းဖက်မှုဖြစ်စဉ်များကို လျှော့ချနိုင်ခဲ့ပါသည်။
+          </p>
+        </div>
+      </div>
+      <div class="dvimg">
+        <img src="images/chart.png" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-co1">
+        <h3>Take me to: </h3>
+        <a href="index.html"> <li>Home</li></a>
+        <a href="blog.html"> <li> Info</li></a>
+        <a href="donate.html"> <li>Donate</li></a>
+        <a href="lawyer.html"> <li>Lawyer</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>ဝဘ်ဆိုဒ် အကြံပြုချက်များ</h3>
+        <a href="blog.html"><li>
+          အိမ်တွင်းအကြမ်းဖက်မှုဆိုတာဘာလဲ။</li></a>
+        <a href="blog.html"><li>ဘာတွေပြောနေကြတာလဲ။</li></a>
+        <a href="index.html"><li>သူငယ်ချင်းတစ်ယောက်လိုတယ်</li></a>
+        <a href="donate.html"><li>လှူချင်ပါတယ်</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>ဝဘ်ဆိုဒ် အကြံပြုချက်များ</h3>
+        <a href="lawyer.html"><li>ရှေ့နေတွေနဲ့ပတ်သက်ပြီးပိုမိုသိရှိလိုပါသလား။</li></a>
+        <a href="donate.html"><li>ဘာကြောင့်လှူဒါန်းသင့်တာလဲ။</li></a>
+        <a href="index.html"><li>ယခု ကျွန်ုပ်တို့ကို ဖုန်းခေါ်ဆိုပါ။</li></a>
+        <a href="index.html"><li>ကျွန်ုပ်တို့နှင့် စကားပြောပါ။</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Newsletter</h3>
+        <p>Give us a shot, you won't regret it!</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email Address">
+          <a href="#" class="purple">SUBSCRIBE</a>
+
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p>Copyright©2022 All rights reserved | This template is made by Guardian of the Rose.</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+    $('#menu-btn').click(function(){
+      $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardian of the Rose</title>
+    <link href="Blog.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html"><img src="images/logoR.png"></a>
+
+    <div class="navigation">
+      <ul>
+        <i id="menu-close" class="fas fa-times"></i>
+        <li><a  class="active"href="index.html">Home</a></li>
+        <li><a href="Blog.html">Info</a></li>
+        <li><a href="Donate.html">Donate</a></li>
+        <li><a href="Lawyer.html">Lawyer</a></li>
+        <li><a href="Aboutuspage.html">About Us</a></li>
+        <li><a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+        <li>
+          <a>ENG</a>
+          <label class="switch">
+            <input type="checkbox" onclick="NewTab()" id="toggleBtn">
+            <span class="slider round"></span>
+          </label>
+          <a>MM</a>
+        </li>
+      </ul>
+      <img id="menu-btn"src="images/menu.png" alt="">
+<script type="text/javascript">
+const toggleBtn = document.getElementById('toggleBtn');
+
+toggleBtn.addEventListener('change', function() {
+if (this.checked) {
+  window.open('blogmy.html', '_blank');
+} else {
+  window.open('Blog.html','_blank');
+}
+});
+
+</script>
+    </div>
+  </nav>
+  <section class="home" id="home">
+    <div class="home-text container">
+        <h2 class="home-title">Welcome to Our Blog page</h2>
+        <span class="home-subtitle">Thank you for visiting our website, and we hope you find the information and resources here helpful!</span>
+    </div>
+  </section>
+
+  <section class="menu1">
+
+    <div class="row">
+
+        <div class="content">
+            <h3 style="text-align: center; color: #592c5f; font-size: 170%; padding-bottom: 0.1rem;">Domestic Violence</h3>
+            <p style="color: #592c5f;">Domestic violence is a pervasive issue that affects millions of individuals and families around the world. It is
+              a pattern of behavior where one person seeks to gain and maintain power and control over another person, often through physical, emotional, or psychological abuse.
+            </p>
+            <a href="post.html" class="btn2">Read More</a>
+        </div>
+        <div class="image">
+          <img src="images/back7.webp" alt="">
+      </div>
+    </div>
+
+</section>
+
+<div class="post-filter container">
+  <span class="filter-item active-filter" data-filter="all">All</span>
+  <span class="filter-item" data-filter="daily">Daily</span>
+
+</div>
+
+<div class="post container">
+  <div class="post-box daily">
+    <img src="images/1.jpeg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >1 Jun 2021</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>One person we spoke with, let's call her Unknown, experienced physical violence from her partner for years. She was constantly living in fear, walking on eggshells, and trying to avoid triggering her partner's anger. She eventually found the courage to seek help, but the trauma and fear have stayed with her.</p>
+    <div  class="profile">
+      <img src="images/inter.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;">Shoon</span>
+    </div>
+  </div>
+
+
+  <div class="post-box daily " >
+    <img src="images/2.jpg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >22 Jun 2018</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>One person, let's call  Unknown, experienced emotional and psychological abuse from his wife. She would constantly belittle him, criticize him, and make him feel worthless. He lost his sense of self-worth and confidence, and it has taken him years to regain it.Please know that help is available. </p>
+    <div  class="profile">
+      <img src="images/inter1.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;">Yu</span>
+    </div>
+  </div>
+
+
+  <div class="post-box daily">
+    <img src="images/3.jpg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >21 July 2022</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>One person, let's call Unknown, experienced sexual abuse from her partner. She was forced to engage in sexual acts against her will and was made to feel guilty and ashamed for not wanting to participate. The trauma and shame have stayed with her, even years after leaving the relationship.</p>
+    <div  class="profile">
+      <img src="images/inter2.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;"></span>Chan</span>
+    </div>
+  </div>
+
+
+  <div class="post-box daily">
+    <img src="images/4.jpg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >9 Sep 2019</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>Next is a survivor of human trafficking who was forced into a domestic servitude situation where she was physically and emotionally abused by her employers. She managed to escape and now advocates for the rights of trafficking survivors.</p>
+    <div  class="profile">
+      <img src="images/inter5.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;">Shoon</span>
+    </div>
+  </div>
+
+
+  <div class="post-box daily">
+    <img src="images/5.jpg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >8 May 2020</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>Next is a gay man who was in an abusive relationship with his partner for several years. He struggled with feelings of shame and isolation, but eventually found the courage to leave and seek help from a local LGBTQ+ support group.</p>
+    <div  class="profile">
+      <img src="images/inter4.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;">Min Myat</span>
+    </div>
+  </div>
+
+
+  <div class="post-box daily">
+    <img src="images/6.jpg" alt="" class="post-img">
+    <span class="post-date" style="color: #09000a;" >11 Feb 2021</span>
+    <h2 class="category" style="font-size: 130%;">Unknown Person</h2>
+    <p>Another was in a long-term relationship with a man who would constantly belittle and control her, and even threatened her life on multiple occasions. She eventually left him and sought help from a therapist to deal with the trauma she experienced.</p>
+    <div  class="profile">
+      <img src="images/inter3.jpg" alt="" class="profile-img">
+      <span class="profile-name" style="font-size: 110%;">Yu</span>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="Blog.js"></script>
+<footer>
+  <div class="footer-co1">
+    <h3>Take me to: </h3>
+    <a href="index.html"> <li>Home</li></a>
+    <a href="blog.html"> <li> Info</li></a>
+    <a href="donate.html"> <li>Donate</li></a>
+    <a href="lawyer.html"> <li>Lawyer</li></a>
+  </div>
+  <div class="footer-co1">
+    <h3>Website Tips</h3>
+    <a href="blog.html"><li>What is Domestic Violence?</li></a>
+    <a href="blog.html"><li>What are they saying?</li></a>
+    <a href="index.html"><li>I need a friend?</li></a>
+    <a href="donate.html"><li>I want to donate.</li></a>
+  </div>
+  <div class="footer-co1">
+    <h3>Website Tips</h3>
+    <a href="lawyer.html"><li>Read more about lawyers</li></a>
+    <a href="donate.html"><li>Why should I donate?</li></a>
+    <a href="index.html"><li>Call Us Now</li></a>
+    <a href="index.html"><li>Chat with us</li></a>
+  </div>
+  <div class="footer-co1">
+    <h3>Newsletter</h3>
+    <p>Give us a shot, you wont regret it!</p>
+    <div class="subscribe">
+      <input type="text" placeholder="Your Email Address">
+      <a href="#" class="purple">SUBSCRIBE</a>
+
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p>Copyright©2022 All rights reserved | This template is made by Guardian of the Rose.</p>
+    <div class="pro-links">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </div>
+</footer>
+<script>
+$('#menu-btn').click(function(){
+  $('nav .navigation ul').addClass('active')
+});
+$('#menu-close').click(function(){
+  $('nav .navigation ul').removeClass('active')
+});
+</script>
+
+</body>
+</html>

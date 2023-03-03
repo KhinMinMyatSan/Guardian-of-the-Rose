@@ -1,0 +1,319 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardian of the Rose</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d71280f73.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/lawyerstyle.css" />
+
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html"><img src="images/logoR.png" /></a>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="blogmy.html">Info</a></li>
+          <li><a href="Donatemy.html">Donate</a></li>
+          <li><a href="lawyermy.html">Lawyer</a></li>
+          <li><a href="aboutuspagemy.html">About Us</a></li>
+          <li>
+            <a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+
+          <li>
+            <a style="color:rgb(21,21,100);">ENG</a>
+            <label class="switch">
+              <input type="checkbox" onclick="NewTab()" id="toggleBtn" />
+              <span class="slider round"></span>
+            </label>
+            <a style="color:rgb(21,21,100);">MM</a>
+          </li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="" />
+        <script type="text/javascript">
+          const toggleBtn = document.getElementById("toggleBtn");
+
+          toggleBtn.addEventListener("change", function () {
+           if (this.checked) {
+  window.open('lawyer.html', '_blank');
+} else {
+  window.open('lawyermy.html','_blank');
+}
+});
+
+        </script>
+      </div>
+    </nav>
+    <div
+      class="masthead"
+      style="
+        background-image: linear-gradient(
+            rgba(9, 5, 54, 0.3),
+            rgba(5, 4, 46, 0.7)
+          ),
+          url(images/background2.jpg);
+      "
+    >
+      <div class="color-overlay">
+        <h1>ရှေ့နေငှားရမ်းခြင်:</h1>
+        <p>ရှေ့နေများသည် အိမ်တွင်းအကြမ်းဖက်မှုသံသရာကို နှောင့်ယှက်ရန် အဓိကသော့ချက်ဖြစ်သည်။</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="content-section">
+          <div class="title">
+            <h3>ဥပဒေရေးရာအကူအညီလိုပါသလား</h3>
+          </div>
+          <div class="content">
+            <p>
+              
+မင်းရဲ့နာကျင်မှုကို ကျော်ဖြတ်ရမယ်ဆိုတာ အသိပညာနဲ့ နားလည်မှုတွေအတွက် ငါတို့က မင်းကို လုံခြုံအောင် ကူညီပေးလိမ့်မယ်။ စော်ကားမှုသည် ကြောက်စရာကောင်းပြီး သီးခြားဖြစ်နိုင်သည်။ ထွက်လမ်းရှာရန် သင့် သို့မဟုတ် သင်သိသော တစ်စုံတစ်ဦးကို ကျွန်ုပ်တို့ ကူညီနိုင်ပါသည်။
+            </p>
+            <a href="#formsection" class="button">အကူအညီရယူပါ</a>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="images/hurt.jpeg" />
+        </div>
+      </div>
+    </div>
+    <div
+      class="middle"
+      style="
+        background-image: linear-gradient(
+            rgba(9, 5, 54, 0.3),
+            rgba(5, 4, 46, 0.7)
+          ),
+          url(images/book.jpg);
+      "
+    ></div>
+    <div class="container">
+      <div class="helpsection">
+        <h3>ရှေ့နေတွေက ဘယ်လိုကူညီပေးမလဲ</h3>
+        <p>
+            လူအတော်များများသည် ၎င်းတို့၏အခြေအနေသည် တရားဥပဒေဆိုင်ရာပြဿနာဖြစ်သည် သို့မဟုတ် ဥပဒေသည် အမှန်တကယ်ဒုက္ခရောက်သူများကို ကူညီပေးနိုင်သည်ဟု မယုံကြည်သောကြောင့် အကူအညီမတောင်းကြပေ။ သို့သော် ရှေ့နေတစ်ဦးရှိခြင်းသည် အနာဂတ်အိမ်တွင်း အကြမ်းဖက်မှုများကို ကာကွယ်ရန် အကောင်းဆုံးနည်းလမ်းများထဲမှ တစ်ခုဖြစ်ကြောင်း လေ့လာမှုများက ဖော်ပြသည်။
+        </p>
+        <div class="row">
+          <ul>
+            <div class="col-sm-4">
+              <li class="purplebox">
+                
+                လုံခြုံသော စာရွက်စာတမ်း - မတရားကျူးလွန်သူအား နှောင့်ယှက်ခြင်း၊ အလွဲသုံးစားလုပ်ခြင်း၊ လိုက်ရှာခြင်းနှင့် ၎င်းတို့၏ သားကောင်အား ထိခိုက်နစ်နာစေခြင်းများကို ရပ်တန့်ရန် တရားသူကြီးက လက်မှတ်ရေးထိုးထားသော စာရွက်စာတမ်း။
+              </li>
+            </div>
+            <div class="col-sm-4">
+              <li class="purplebox">
+                အမျိုးသမီး ကြုံတွေ့ရနိုင်သည့် နောက်ဆက်တွဲ ဥပဒေရေးရာ ပြဿနာများကို ဖြေရှင်းခြင်း
+              </li>
+            </div>
+            <div class="col-sm-4">
+              <li class="purplebox">
+                အိမ်တွင်း အကြမ်းဖက်မှု၏ သားကောင်များအတွက် ချက်ခြင်းတရားဝင် အကာအကွယ်ကို လုံခြုံစေကာ နှင့် သားကောင်များကို လူမှုဝန်ဆောင်မှုများနှင့် ချိတ်ဆက်ပေးခြင်း
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img src="images/lawyerhelp.png" />
+      </div>
+    </div>
+
+    <div class="contact1" id="formsection">
+      <div class="container-contact1">
+        <div class="contact1-pic js-tilt" data-tilt>
+          <img src="images/mail.jpg" alt="IMG" />
+        </div>
+
+        <form class="contact1-form validate-form">
+          <span class="contact1-form-title"> ဆက်သွယ်ရန် </span>
+
+          <div
+            class="wrap-input1 validate-input"
+            data-validate="Name is required"
+          >
+            <input
+              class="input1"
+              type="text"
+              name="name"
+              placeholder="နာမည်"
+            />
+            <span class="shadow-input1"></span>
+          </div>
+
+          <div class="wrap-input1 validate-input">
+            <input class="input1" type="text" placeholder="လိပ်စာ" />
+            <span class="shadow-input1"></span>
+          </div>
+
+          <div class="wrap-input1 validate-input">
+            <input class="input1" type="text" placeholder="ဖုန်းနံပါတ်" />
+            <span class="shadow-input1"></span>
+          </div>
+
+          <div
+            class="wrap-input1 validate-input"
+            data-validate="Message is required"
+          >
+            <textarea
+              class="input1"
+              name="message"
+              placeholder="ကျွန်ုပ်တို့ သင့်အား မည်သို့ကူညီနိုင်မည်နည်း"
+            ></textarea>
+            <span class="shadow-input1"></span>
+          </div>
+
+          <div class="container-contact1-form-btn">
+            <button class="contact1-form-btn">
+              <span>
+                စာပို့ရန်
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    </section>
+    <section id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.2174435568822!2d96.12684291498391!3d16.81556552346998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ebbbf8374b25%3A0x99763604b6306ad1!2sGUSTO%20University!5e0!3m2!1sen!2smm!4v1670902004634!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer>
+      <div class="footer-co1">
+        <h3>Take me to: </h3>
+        <a href="index.html"> <li>Home</li></a>
+        <a href="blog.html"> <li> Info</li></a>
+        <a href="donate.html"> <li>Donate</li></a>
+        <a href="lawyer.html"> <li>Lawyer</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>ဝဘ်ဆိုဒ် အကြံပြုချက်များ</h3>
+        <a href="blog.html"><li>
+          အိမ်တွင်းအကြမ်းဖက်မှုဆိုတာဘာလဲ။</li></a>
+        <a href="blog.html"><li>ဘာတွေပြောနေကြတာလဲ။</li></a>
+        <a href="index.html"><li>သူငယ်ချင်းတစ်ယောက်လိုတယ်</li></a>
+        <a href="donate.html"><li>လှူချင်ပါတယ်</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>ဝဘ်ဆိုဒ် အကြံပြုချက်များ</h3>
+        <a href="lawyer.html"><li>ရှေ့နေတွေနဲ့ပတ်သက်ပြီးပိုမိုသိရှိလိုပါသလား။</li></a>
+        <a href="donate.html"><li>ဘာကြောင့်လှူဒါန်းသင့်တာလဲ။</li></a>
+        <a href="index.html"><li>ယခု ကျွန်ုပ်တို့ကို ဖုန်းခေါ်ဆိုပါ။</li></a>
+        <a href="index.html"><li>ကျွန်ုပ်တို့နှင့် စကားပြောပါ။</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Newsletter</h3>
+        <p>Give us a shot, you won't regret it!</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email Address">
+          <a href="#" class="purple">SUBSCRIBE</a>
+
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p>Copyright©2022 All rights reserved | This template is made by Guardian of the Rose.</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+      $(".js-tilt").tilt({
+        scale: 1.1,
+      });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>

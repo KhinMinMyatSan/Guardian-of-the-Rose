@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian of the Rose</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d71280f73.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html"><img src="images/logoR.png"></a>
+
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="Blog.html">Info</a></li>
+          <li><a class="active" href="Donate.html">Donate</a></li>
+          <li><a href="Lawyer.html">Lawyer</a></li>
+          <li><a href="Aboutuspage.html">About Us</a></li>
+          <li><a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+          <li>
+            <a>ENG</a>
+            <label class="switch">
+              <input type="checkbox" onclick="NewTab()" id="toggleBtn">
+              <span class="slider round"></span>
+            </label>
+            <a>MM</a>
+          </li>
+        </ul>
+        <img id="menu-btn"src="images/menu.png" alt="">
+        <script type="text/javascript">
+const toggleBtn = document.getElementById('toggleBtn');
+
+toggleBtn.addEventListener('change', function() {
+if (this.checked) {
+  window.open('postmy.html', '_blank');
+} else {
+  window.open('post.html','_blank');
+}
+});
+
+</script>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="post-home">
+      <h2>You're not alone.</h2>
+
+    </section>
+    <section id="about-container">
+
+      <div class="post">
+        <h1>What is Domestic Violence?</h1>
+        <p>Domestic violence is a type of abuse that happens in a relationship or within a household. It can involve physical, emotional, sexual, or financial abuse, and it often happens repeatedly over time.
+          Domestic violence can happen to anyone, regardless of gender, age, or social status. It can cause physical injuries, psychological trauma, and can affect a person's ability to function in their daily life.
+          Examples of domestic violence can include hitting, kicking, slapping, or choking; controlling a person's movements or actions; threatening, belittling, or insulting a person; or withholding money or resources.</p>
+        <h3>How can someone escape Domestic Violence?</h3>
+        <p>Escaping domestic violence can be a difficult and dangerous process, but there are steps someone can take to protect themselves and get to a safe place. Here are some steps to consider:
+
+          Recognize the signs of domestic violence: This includes physical abuse, emotional abuse, sexual abuse, financial abuse, and controlling behavior.
+
+          Reach out for help: Tell someone you trust, such as a friend, family member, or professional, about what is happening to you. They can offer support and help you create a safety plan.
+
+          Create a safety plan: This can include things like identifying safe places to go if you need to leave quickly, packing a bag with essentials in case you need to leave in a hurry, and keeping important documents in a safe place.
+
+          Seek professional help: Talk to a therapist or counselor who specializes in domestic violence to help you process your feelings and develop coping strategies.
+
+          Get a restraining order: If you feel that you are in immediate danger, you can apply for a restraining order that legally requires the abuser to stay away from you.
+
+          Leave the situation: This can be the most difficult step, but it may be necessary to leave the situation and seek a safe place to stay, such as a shelter or with a friend or family member.
+
+          Remember, you do not have to go through this alone. There are resources available to help you escape domestic violence and move towards a safer, healthier life.</p>
+
+          <br><br>
+        <a href="blog.html" class="button1">Go Back</a>
+      </div>
+    </section>
+    <!-- Features -->
+    <footer>
+      <div class="footer-co1">
+        <h3>Take me to: </h3>
+        <a href="index.html"> <li>Home</li></a>
+        <a href="blog.html"> <li> Info</li></a>
+        <a href="donate.html"> <li>Donate</li></a>
+        <a href="lawyer.html"> <li>Lawyer</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Website Tips</h3>
+        <a href="blog.html"><li>What is Domestic Violence?</li></a>
+        <a href="blog.html"><li>What are they saying?</li></a>
+        <a href="index.html"><li>I need a friend?</li></a>
+        <a href="donate.html"><li>I want to donate.</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Website Tips</h3>
+        <a href="lawyer.html"><li>Read more about lawyers</li></a>
+        <a href="donate.html"><li>Why should I donate?</li></a>
+        <a href="index.html"><li>Call Us Now</li></a>
+        <a href="index.html"><li>Chat with us</li></a>
+      </div>
+      <div class="footer-co1">
+        <h3>Newsletter</h3>
+        <p>Give us a shot, you won't regret it!</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email Address">
+          <a href="#" class="purple">SUBSCRIBE</a>
+
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p>Copyright©2022 All rights reserved | This template is made by Guardian of the Rose.</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+    $('#menu-btn').click(function(){
+      $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    });
+    </script>
+  </body>
+</html>
